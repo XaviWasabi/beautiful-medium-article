@@ -1,0 +1,75 @@
+body {
+color: black;
+font-family: 'Roboto Mono', monospace;
+
+}
+
+div {
+  display: block
+}
+
+h2 {
+font-size: 25px;
+}
+
+p {
+  font-size: 15px;
+}
+
+a {
+  text-decoration: none
+  }
+
+.banner {
+  background-color: rgb(154,211,188);
+  background-size: cover;
+  font-size: 20px;
+  padding: 120px;
+}
+
+.container {
+  width: 700px;
+  margin: 50px auto;
+}
+
+
+
+.link-medium {
+  color: black;
+  background-image: linear-gradient(to bottom, rgb(251,207,223), rgb(251,207,223));
+  font-style: italic;
+}
+
+.link-medium:hover {
+  color: black;
+  background-image: linear-gradient(to bottom, rgb(250,190,223), rgb(250,190,223));
+}
+
+.container {
+  width: 50px auto;
+  margin: 50px auto;
+}
+
+@media(max-width: 576px) {
+  .container {
+    width: 470px;
+  }
+}
+
+@media(max-width: 768px) {
+  .container {
+    width: 570px;
+  }
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 800px;
+  }
+}
+
+@media(max-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
